@@ -1,23 +1,19 @@
 <!DOCTYPE >
 <html>
   <head>
-    <meta charset=utf-8"/>
+    <meta charset="utf-8"/>
+     <link href="./Styles.css" rel="stylesheet" type="text/css" />
+     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+     <script src="./programacion.js"></script>
     <title> CV XXXX XXXXXXX XXXXXXXXX </title>
   </head>
   <body>
     <h1>Nombre Completo</h1>
       <MAIN>
-      <!--Sección de Direccón-->
-            <img class = "Casa" src="Elementos/Casa.png" alt="Imagen de Casa" width="50" height="50" title="Direccón">
-            <p>Calle xxxxxx, colonia:xxxxxxxx, Delegación:xxxxxxxxxx, Código Postal:xxxx</p>
-<br>
       <!--Sección de Perfil-->
 
-            <img class = "Perfil" src="Elementos/Perfil.png" alt="Imagen de Perfil" width="50" height="50" title="Objetivo">
-              <p><style=”text-align: justify;”> Colaborar en una empresa que me permita aplicar mis conocimientos y experiencia para el desarrollo de la misma,
-                con oportunidades de crecimiento basadas en mi desempeño y esfuerzo, poder aportar mis conocimientos en áreas de oportunidad como servicio a
-                clientes, en áreas administrativas, implementar las herramientas de calidad en departamentos que se requieran.
-              </p>
+
+
 
       <!-- Seccion de logros-->
 
@@ -143,9 +139,28 @@
                    </ul>
                    </div>
 
-<!--Foto Personal-->
-          <div>
-          <img class="Personal" src="Elementos/Foto.png" alt="Foto Personal" title="Foto Personal"/>
+          <div class="perfil-envoltura">
+            <!--Foto Personal-->
+            <img class="Personal" src="Elementos/Foto.png" alt="Foto Personal" title="Foto Personal"/>
+            <!--Foto Personal-->
+            <!--Sección de Direccón-->
+            <div class="Casa satelite">
+              <img src="Elementos/Casa.png" alt="Imagen de Casa"title="Direccón">
+              <div class="informacion">
+                <p>Calle xxxxxx, colonia:xxxxxxxx, Delegación:xxxxxxxxxx, Código Postal:xxxx</p>
+                <input type="button" value="x" />
+              </div>
+            </div>
+            <!--/Sección de Direccón-->
+            <!--Sección de Perfil-->
+            <div class="Perfil satelite">
+              <img src="./Elementos/Perfil.png" alt="Imagen de Perfil"  title="Objetivo">
+              <div class="informacion">
+                <p>zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                <input type="button" value="x" />
+              </div>
+
+            </div>
           </div>
         </MAIN>
   </body>
