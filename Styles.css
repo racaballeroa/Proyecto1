@@ -1,3 +1,7 @@
+.mayusculas {
+  text-transform: uppercase;
+}
+
 .perfil-envoltura {
   border: 2px solid cyan;
   border-radius: 50%;
@@ -19,12 +23,18 @@
 
 .perfil-envoltura > .satelite img {
   cursor: pointer;
-  width: 100%;
+  width: 150%;
 }
 
 .perfil-envoltura > .Casa {
-  bottom: 100%;
+  bottom: 108%;
   left: calc(50% - 25px);
+}
+
+.perfil-envoltura > .Logros{
+  bottom: 108%;
+  right: absolute;
+  top: -7%;
 }
 
 .perfil-envoltura .informacion {
@@ -35,6 +45,7 @@
   margin: 0;
   width: auto;
   top: 0;
+  text-align: justify;
 }
 
 .perfil-envoltura .informacion > input{
@@ -42,10 +53,23 @@
   left: 100%;
   top: 0;
   cursor: pointer;
-
 }
 
 .perfil-envoltura > .Perfil {
   top: 0;
   right: 0;
+}
+/*No logro poner color a class="colorlogros"*/
+.perfil-envoltura > span .colorlogros{
+  color: #F7C064
+}
+
+.perfil-envoltura > .coloruni {
+  color: #FF7F50
+}
+
+.perfil-envoltura > .Cocntacto img {
+  width: -50px;
+  height: -50px;
+  position: absolute;
 }

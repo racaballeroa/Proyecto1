@@ -1,8 +1,8 @@
 $(document).ready(function(){
   $('.satelite > img').click(function(elemento){
     var elementoQueLeHiceClick = elemento.currentTarget;
-    $(elementoQueLeHiceClick).fadeOut();
-    $(elementoQueLeHiceClick).siblings('.informacion').fadeIn();
+    $(elementoQueLeHiceClick).fadeOut(); /*fadeOut=desvanecerse*/
+    $(elementoQueLeHiceClick).siblings('.informacion').fadeIn();/*fadeIn=aparecer gradualmente*/
   });
 
   $('.informacion > input ').click(function(elemento){
