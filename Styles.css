@@ -60,16 +60,41 @@
   right: 0;
 }
 /*No logro poner color a class="colorlogros"*/
-.perfil-envoltura > span .colorlogros{
+.perfil-envoltura > .logros > span .colorlogros{
   color: #F7C064
 }
 
-.perfil-envoltura > .coloruni {
+.perfil-envoltura > .Formación > .coloruni {
   color: #FF7F50
 }
 
-.perfil-envoltura > .Cocntacto img {
-  width: -50px;
-  height: -50px;
+.perfil-envoltura > .Cocntacto {
+  bottom: 50px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
   position: absolute;
+}
+
+.perfil-envoltura > .Formación {
+  bottom: 50px;
+  right: -7px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.perfil-envoltura > .email {
+  top: 102%;
+  left: calc(50% - 25px);
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+.perfil-envoltura > .Aficiones {
+  top: 95%;
+  right: 50px;
+  width: 48px;
+  height: 50px;
 }
