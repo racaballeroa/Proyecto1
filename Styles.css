@@ -1,8 +1,12 @@
 .principal {
   width: 100%;
-  height: 20%;
+  height: 10%;
   text-align: center;
   font-size: 120%;
+  font-family: src="./Tipografía/Raleway-Black";
+  font-weight: 400;
+  color: #ffffff;
+  background: #D1F2EB;
 }
 .mayusculas {
   text-transform: uppercase;
@@ -85,11 +89,9 @@
 }
 
 .perfil-envoltura > .Formación {
-  bottom: 50px;
-  right: -7px;
-  width: 50px;
-  height: 50px;
-  position: absolute;
+  bottom: 240px;
+  left: cal(50px - 80%)
+  margin-right: 10%;
 }
 
 .perfil-envoltura > .email {
@@ -109,4 +111,20 @@
 
 .perfil-envoltura > .colorexp {
   color: #4ECC8E
+}
+
+.perfil-envoltura > .Experiencia {
+  top: 240px;
+  right: cal(50% - 80px)
+}
+
+.perfil-envoltura > .twitter {
+  bottom: 108%;
+  right: relative;
+  top: -7%;
+}
+
+.pasatiempos {
+  right: 50px;
+  width: 50px;
 }
