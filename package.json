@@ -1,0 +1,15 @@
+{
+  "name": "Proyecto1",
+  "version": "0.0.1",
+  "description": "CV Raul Caballero",
+  "repository": "git@github.com:racaballeroa/Proyecto1.git",
+  "author": "racaballeroa@hotmail.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1"
+  }
+}
