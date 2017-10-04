@@ -1,3 +1,16 @@
+/*@font-face {
+  font-family: "Raleway";
+  src: local("Raleway Black"),
+        local("Raleway.Black.ttf"),
+    url("./Tipografía/Raleway-Black.ttf");
+}*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+main {
+  margin-top: 100px;
+}
+
 .principal {
   width: 100%;
   height: auto;
@@ -39,16 +52,6 @@
   width: 150%;
 }
 
-.perfil-envoltura > .Cocntacto >.contactos img {
-  margin: 10px;
-  float: left;
-}
-
-.contactos {
-  width: 20%;
-  height: 20%;
-}
-
 .perfil-envoltura > .Casa {
   bottom: 108%;
   left: calc(50% - 25px);
@@ -82,8 +85,7 @@
   right: 0;
 }
 
-/*No logro poner color a class="colorlogros"*/
-.perfil-envoltura > .logros > span .colorlogros{
+span.colorlogros{
   color: #F7C064
 }
 
@@ -96,8 +98,8 @@
 }
 
 .perfil-envoltura > .Formación {
-  top: 100px;
-  rigth: 300px:
+  top: 205px;
+  right: 490;
 }
 
 .perfil-envoltura > .email {
@@ -109,8 +111,13 @@
   position: absolute;
 }
 .perfil-envoltura > .Aficiones {
-  top: 370;
+  top: 370px;
   right: 0;
+}
+
+.perfil-envoltura > .Contacto {
+  top: 370px;
+  left: -30;
 }
 
 .perfil-envoltura > .colorexp {
@@ -128,6 +135,6 @@
 }
 
 .pasatiempos {
-  right: 0px;
-  width: 50px;
+  right: 30px;
+  width: 30px;
 }
