@@ -1,19 +1,20 @@
 .principal {
   width: 100%;
-  height: 10%;
+  height: auto;
   text-align: center;
   font-size: 120%;
   font-family: Raleway;
   font-weight: 400;
   color: #ffffff;
   background: #D1F2EB;
+  display: block;
 }
 .mayusculas {
   text-transform: uppercase;
 }
 
 .perfil-envoltura {
-  border: 2px solid cyan;
+  border: 4px solid #D1F2EB;
   border-radius: 50%;
   display: inline-block;
   padding: 8px;
@@ -38,15 +39,24 @@
   width: 150%;
 }
 
+.perfil-envoltura > .Cocntacto >.contactos img {
+  margin: 10px;
+  float: left;
+}
+
+.contactos {
+  width: 20%;
+  height: 20%;
+}
+
 .perfil-envoltura > .Casa {
   bottom: 108%;
   left: calc(50% - 25px);
 }
 
 .perfil-envoltura > .Logros{
-  bottom: 108%;
-  right: absolute;
-  top: -7%;
+  right: 420;
+  top: 0%;
 }
 
 .perfil-envoltura .informacion {
@@ -71,6 +81,7 @@
   top: 0;
   right: 0;
 }
+
 /*No logro poner color a class="colorlogros"*/
 .perfil-envoltura > .logros > span .colorlogros{
   color: #F7C064
@@ -81,11 +92,7 @@
 }
 
 .perfil-envoltura > .Cocntacto {
-  bottom: auto;
-  right: 50px;
-  width: 50px;
-  height: 50px;
-  position: absolute;
+  bottom: 10px;
 }
 
 .perfil-envoltura > .Formación {
@@ -102,10 +109,8 @@
   position: absolute;
 }
 .perfil-envoltura > .Aficiones {
-  top: 95%;
-  right: 50px;
-  width: 48px;
-  height: 50px;
+  top: 370;
+  right: 0;
 }
 
 .perfil-envoltura > .colorexp {
@@ -113,8 +118,8 @@
 }
 
 .perfil-envoltura > .Experiencia {
-  top: 240px;
-  right: cal(50% - 80px)
+  top: 205px;
+  right: -65;
 }
 
 .twitter {
