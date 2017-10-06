@@ -89,7 +89,7 @@ span.colorlogros{
   color: #F7C064
 }
 
-.perfil-envoltura > .Formación > .coloruni {
+.coloruni {
   color: #FF7F50
 }
 
@@ -98,7 +98,7 @@ span.colorlogros{
 }
 
 .perfil-envoltura > .Formación {
-  top: 205px;
+  top: 185px;
   right: 490;
 }
 
@@ -125,7 +125,7 @@ span.colorlogros{
 }
 
 .perfil-envoltura > .Experiencia {
-  top: 205px;
+  top: 185px;
   right: -65;
 }
 
@@ -135,6 +135,75 @@ span.colorlogros{
 }
 
 .pasatiempos {
-  right: 30px;
+  height: 30px;
   width: 30px;
+}
+
+.dircol {
+  color: #E25E72
+}
+
+.Contactos {
+  width: 30px;
+  height: 30px;
+}
+
+.colorexp {
+  color: #4ECC9E
+}
+
+span.colorexp {
+  font-weight: 900;
+}
+
+span.coloruni {
+  font-weight: 900;
+}
+
+span.colorlogros {
+  font-weight: 900;
+}
+
+.dircol {
+  font-weight: 900;
+}
+
+.colorper {
+color: #E05D71;
+}
+
+.colormail {
+  color: #318DCD;
+}
+
+.colorcel {
+  color: #2DC86F;
+}
+
+.colortwt {
+  color: #234A72;
+}
+
+.colorforma {
+  color: #FF7F50;
+}
+
+.colorexper {
+  color: #4ECC9E;
+}
+
+.colorpt {
+  color: #24B5CF;
+}
+
+.colorlogr {
+  color: #F7C064;
+}
+
+.colorfb {
+  color: #2F6096
+}
+
+.colorwtp {
+  color: #54B960
 }
