@@ -24,6 +24,9 @@ main {
 }
 .mayusculas {
   text-transform: uppercase;
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+     color: white;
+     font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
 }
 
 .perfil-envoltura {
@@ -74,10 +77,12 @@ main {
 }
 
 .perfil-envoltura .informacion > input{
+  background: #F8F8FF;
   position:  absolute;
   left: 100%;
   top: 0;
   cursor: pointer;
+  border-radius: 20px
 }
 
 .perfil-envoltura > .Perfil {
