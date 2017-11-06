@@ -1,18 +1,33 @@
 $(document).ready(function(){
-  $('.satelite > img').click(function(elemento){
+  var tiempoTransicion = 400;
+  
+  function mostrarInformacion(elemento) {
     var elementoQueLeHiceClick = elemento.currentTarget;
-    $(elementoQueLeHiceClick).fadeOut(); /*fadeOut=desvanecerse*/
-    $(elementoQueLeHiceClick).siblings('.informacion').fadeIn();
-    // siblings=hermanos              /*fadeIn=aparecer gradualmente*/
     
-  });
+    $('.perfil-envoltura')
+      .children('.Personal')
+      .fadeOut(tiempoTransicion);
+      
+    var informacionADesplegar = $(elementoQueLeHiceClick).data('clicked');
+    
+    $('#' + informacionADesplegar).fadeIn();
+  };
+  
+  $('.satelite > img').click(mostrarInformacion);
 
-  $('.informacion > input ').click(function(elemento){
+
+  
+  function cerrarInformacion(elemento) {
     var elementoQueLeHiceClick = elemento.currentTarget;
-    $(elementoQueLeHiceClick).parent().fadeOut();
-    if ((elementoQueLeHiceClick).parent().sibiling('img').click){
-      .hidden();
-    }
-    $(elementoQueLeHiceClick).parent().siblings('img').fadeIn();
-  })
-  });
+    $(elementoQueLeHiceClick)
+      .parent()
+      .fadeOut(tiempoTransicion)
+      .parent()
+      .siblings('img')
+      .fadeIn(tiempoTransicion);
+      
+    $('.personal').fadeIn(tiempoTransicion)
+  };
+  
+  $('.informacion > input ').click(cerrarInformacion);
+});

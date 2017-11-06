@@ -36,13 +36,33 @@ main {
   padding: 8px;
   position: relative;
   left: calc(50% - 433px / 2);
+  width: 433px;
+  height: 432px;
 }
 
 .perfil-envoltura > .Personal {
   border-radius: 50%;
-  width: 433px;
-  height: 432px;
+  height: inherit;
+  width: inherit;
 }
+
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.perfil-envoltura > .satelite > img:hover {
+  animation: pulse 1.35s infinite;
+}
+
 
 .perfil-envoltura > .satelite {
   width: 50px;

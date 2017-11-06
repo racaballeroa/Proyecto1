@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
      <link href="./Styles.css" rel="stylesheet" type="text/css" />
       <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
        <script src="./programacion.js"></script>
@@ -17,23 +17,7 @@
                           <div class="perfil-envoltura">
                             <!--Foto Personal-->
                               <img class="Personal" src="Elementos/perfil1.png" alt="Foto Personal" title="Foto Personal"/>
-                            <!--Foto Personal-->
-                            <!--Sección de Direccón-->
-                              <div class="Casa satelite">
-                                <img src="Elementos/Home.png" alt="Imagen de Casa"title="Direccón">
-                                  <div class="informacion">
-                                    <p>
-                                      <div class="dircol"><h2 class="titulos"><span class="mayusculas">dirección</span></h2></div>
-                                        Calle:xxxxxx, Colonia:xxxxxxxx, Delegación:xxxxxxxxxx, Código Postal:xxxx
-                                    </p>
-                                      <input type="button" value="x"/>
-                                  </div>
-                              </div>
-                            <!--/Sección de Direccón-->
-                            <!--Sección de Perfil-->
-                              <div class="Perfil satelite">
-                                <img src="./Elementos/user.png" alt="Imagen de Perfil"  title="Objetivo">
-                                <div class="informacion">
+                                <div class="informacion" id = 'perfil'>
                                   <div class="colorper"><h2 class="titulos"><span class="mayusculas">perfíl</span></h2></div>
                                     <p>Colaborar en una empresa que me permita aplicar mis conocimientos y experiencia para el desarrollo de la misma,
                                       con oportunidades de crecimiento basadas en mi desempeño y esfuerzo, poder aportar mis conocimientos en
@@ -42,6 +26,38 @@
                                     </p>
                                   <input type="button" value="x" />
                                 </div>
+                                  <div class="informacion" id = 'formacion'>
+                                    <div class="colorforma"><h2 class="titulos"><span class="mayusculas">formación</span></h2></div>
+                                      <p><span class="coloruni">Universidad Tecnológica de México.<br></span></p>
+                                        <p><b>2008 – 2011</b><span class="lic"> Licenciatura en Administración de Empresas</span></p>
+                                              Formación Complementaria:<br>
+                                              Habilidades Gerenciales (UNITEC)<br>
+                                              Negociación (UNITEC)<br>
+                                              Habilidades Gerenciales (UNITEC)<br>
+                                              Creatividad y solución de problemas (UNITEC)<br>
+                                              Arte del tele mercadeó (BANCO IXE)<br>
+                                              Relaciones interpersonales (UNITEC)<br>
+                                              Seminario de técnicas y prácticas de ventas (BANCO IXE)<br>
+                                              Administración del tiempo (UNITEC)<br>
+                                              <input type="button" value="x"/>
+                                  </div>
+                                  <div class="informacion" id = 'direccion'>
+                                    <p>
+                                      <div class="dircol"><h2 class="titulos"><span class="mayusculas">dirección</span></h2></div>
+                                        Calle:xxxxxx, Colonia:xxxxxxxx, Delegación:xxxxxxxxxx, Código Postal:xxxx
+                                    </p>
+                                      <input type="button" value="x"/>
+                                  </div>
+                            <!--Foto Personal-->
+                            <!--Sección de Direccón-->
+                              <div class="Casa satelite">
+                                <img src="Elementos/Home.png" alt="Imagen de Casa"title="Direccón">
+                              </div>
+                            <!--/Sección de Direccón-->
+                            <!--Sección de Perfil-->
+                              <div class="Perfil satelite">
+                                <img src="./Elementos/user.png" alt="Imagen de Perfil" data-clicked='perfil' title="Objectivo">
+                                
                               </div>
                             <!--/Sección de Perfil-->
                             <!-- Seccion de logros-->
@@ -71,22 +87,7 @@
                             <!--/Sección de Logros-->
                             <!--Sección de Formación-->
                               <div class="Formación satelite">
-                                <img src="./Elementos/formacion.png" alt="Imagen de Formación"title="Frormación"/>
-                                  <div class="informacion">
-                                    <div class="colorforma"><h2 class="titulos"><span class="mayusculas">formación</span></h2></div>
-                                      <p><span class="coloruni">Universidad Tecnológica de México.<br></span></p>
-                                        <p><b>2008 – 2011</b><span class="lic"> Licenciatura en Administración de Empresas</span></p>
-                                              Formación Complementaria:<br>
-                                              Habilidades Gerenciales (UNITEC)<br>
-                                              Negociación (UNITEC)<br>
-                                              Habilidades Gerenciales (UNITEC)<br>
-                                              Creatividad y solución de problemas (UNITEC)<br>
-                                              Arte del tele mercadeó (BANCO IXE)<br>
-                                              Relaciones interpersonales (UNITEC)<br>
-                                              Seminario de técnicas y prácticas de ventas (BANCO IXE)<br>
-                                              Administración del tiempo (UNITEC)<br>
-                                              <input type="button" value="x"/>
-                                  </div>
+                                <img src="./Elementos/formacion.png" alt="Imagen de Formación" data-clicked='formacion' title="Frormación"/>
                               </div>
                             <!--/Sección de Formación-->
                             <!--Sección de Telefono-->
