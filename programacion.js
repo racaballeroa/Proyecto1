@@ -15,7 +15,7 @@ $(document).ready(function(){
   
   $('.satelite > img').click(mostrarInformacion);
 
-
+  $('.img').css('background-color', 'naranja')
   
   function cerrarInformacion(elemento) {
     var elementoQueLeHiceClick = elemento.currentTarget;

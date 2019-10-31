@@ -27,6 +27,7 @@ main {
   text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
      color: white;
      font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+     padding-left: 70px;
 }
 
 .perfil-envoltura {
@@ -165,6 +166,7 @@ span.colorlogros{
 .pasatiempos {
   height: 30px;
   width: 30px;
+  padding-left: 80px;
 }
 
 .dircol {
@@ -210,6 +212,7 @@ color: #E05D71;
 
 .colortwt {
   color: #234A72;
+  padding-left: 80px;
 }
 
 .colorforma {
@@ -229,9 +232,11 @@ color: #E05D71;
 }
 
 .colorfb {
-  color: #2F6096
+  color: #2F6096;
+  padding-left: 80px;
 }
 
 .colorwtp {
-  color: #54B960
+  color: #54B960;
+  padding-left: 10px;
 }
